@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Packer
+*.box
+packer_cache/
+crash.log
+*.pkrvars.hcl
