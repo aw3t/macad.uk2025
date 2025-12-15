@@ -1,4 +1,4 @@
 #!/bin/zsh
-tart clone DevJamf-TahoeVM DevJamf-TahoeVM4
-tart set DevJamf-TahoeVM4 --display-refit --random-serial --random-mac
-tart run DevJamf-TahoeVM4
+tart clone DevJamf-TahoeVM DevJamf-TahoeVM1
+tart set DevJamf-TahoeVM1 --display-refit --random-serial --random-mac
+tart run DevJamf-TahoeVM1
