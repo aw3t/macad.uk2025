@@ -1,1 +1,1 @@
-packer build -var-file="/Users/aw3t/GitHub/macad.uk2025/packer-build-files/prod-config.pkrvars.hcl" /Users/aw3t/GitHub/macad.uk2025/packer-templates/apple-tart-tahoe.pkr.hcl
+packer build -var-file="/Users/aw3t/GitHub/macad.uk2025/packer-templates/prod-config.pkrvars.hcl" /Users/aw3t/GitHub/macad.uk2025/packer-templates/apple-tart-tahoe.pkr.hcl
