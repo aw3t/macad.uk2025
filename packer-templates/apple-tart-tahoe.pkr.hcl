@@ -103,7 +103,7 @@ source "tart-cli" "tart" {
   vm_name      = var.vm_name
   cpu_count    = 4
   memory_gb    = 8
-  disk_size_gb = 50
+  disk_size_gb = 100
   ssh_username = "${var.account_userName}"
   ssh_password = "${var.account_password}"
   ssh_timeout  = "180s"
@@ -119,7 +119,7 @@ source "tart-cli" "tart" {
     # [1]: should be named "English (US)", but oh well 🤷
     "<wait30s>italiano<esc>english<enter>",
     # Select Your Country or Region
-    "<wait60s><click 'Select Your Country or Region'><wait5s>united states<leftShiftOn><tab><leftShiftOff><spacebar>",
+    "<wait120s><click 'Select Your Country or Region'><wait5s>united states<leftShiftOn><tab><leftShiftOff><spacebar>",
     # Transfer Your Data to This Mac
     "<wait10s><tab><tab><tab><spacebar><tab><tab><spacebar>",
     # Written and Spoken Languages
@@ -147,7 +147,7 @@ source "tart-cli" "tart" {
     # Are you sure you don't want to use Location Services?
     "<wait10s><tab><spacebar>",
     # Select Your Time Zone
-    "<wait10s><tab><tab><tab>UTC<enter><leftShiftOn><tab><leftShiftOff><spacebar>",
+    "<wait10s><tab><tab><tab>New York<enter><leftShiftOn><tab><leftShiftOff><spacebar>",
     # Analytics
     "<wait10s><leftShiftOn><tab><leftShiftOff><spacebar>",
     # Screen Time

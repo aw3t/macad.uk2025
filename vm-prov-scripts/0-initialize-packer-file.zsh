@@ -1,1 +1,1 @@
-packer init /Users/aw3t/GitHub/macad.uk2025/packer-build-files/apple-tart-tahoe.pkr.hcl
+packer init /Users/aw3t/GitHub/macad.uk2025/packer-templates/apple-tart-tahoe.pkr.hcl
